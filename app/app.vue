@@ -2,6 +2,9 @@
 import { siteConfig } from '@/lib/site'
 
 useHead({
+  link: [
+    { rel: 'icon', type: 'image/x-icon', href: '/assets/bird_head.ico'}
+  ],
   bodyAttrs: {
     class: 'min-h-screen bg-[var(--bhs-charcoal)] text-foreground antialiased'
   },
