@@ -2,6 +2,7 @@
 title: Region VI XC Championships
 date: 2025-10-03
 results: https://www.athletic.net/CrossCountry/meet/268685
+season: Cross Country
 ---
 
 #### Boys

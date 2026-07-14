@@ -1,5 +1,6 @@
 ---
 title: Timpanogos Invitational
+season: Cross Country
 results: https://www.athletic.net/CrossCountry/meet/257663
 date: 2025-08-29
 ---

@@ -1,5 +1,6 @@
 ---
 title: Premier Invitational
+season: Cross Country
 date: 2025-08-07
 description: Boys
 results: https://www.athletic.net/CrossCountry/meet/256855/info

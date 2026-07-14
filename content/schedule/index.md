@@ -1,15 +1,14 @@
 ---
-title: Bountiful Results
+title: Schedule & Results
 description: Jump to All Time Performances
 ---
 
-# Bountiful Results
+# Schedule & Results
 
-Jump to [All Time Performances](#all-time-performances)
+Jump to [All Time Performances](#all-time-performances) | [Google Sheets Training Calendar](/schedule/training)
 
-:results-index{path="results" title="Results"}
+:schedule-index{path="schedule" title="Results" :showPastYearsAsLinks="true"}
 
----
 
 # All time performances
 

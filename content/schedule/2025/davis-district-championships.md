@@ -1,5 +1,6 @@
 ---
 title: Davis District Championships
+season: Cross Country
 date: 2025-09-17
 ---
 

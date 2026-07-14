@@ -1,5 +1,6 @@
 ---
 title: Valhalla Invitational
+season: Cross Country
 date: 2025-09-26
 results: https://www.athletic.net/CrossCountry/meet/268034
 location: Layton Commons Park

@@ -1,5 +1,6 @@
 ---
 title: Park City Invitational
+season: Cross Country
 date: 2025-09-05
 results: https://www.athletic.net/CrossCountry/meet/257665
 ---

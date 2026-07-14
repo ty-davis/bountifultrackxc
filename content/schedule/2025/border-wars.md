@@ -1,5 +1,6 @@
 ---
 title: Border Wars
+season: Cross Country
 results: https://www.athletic.net/CrossCountry/meet/258391
 date: 2025-09-13
 ---

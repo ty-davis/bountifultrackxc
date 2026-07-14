@@ -1,5 +1,6 @@
 ---
 title: Woods Cross Dual Meet
+season: Cross Country
 date: 2025-10-21
 ---
 

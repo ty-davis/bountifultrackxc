@@ -17,8 +17,7 @@ export const siteConfig = {
   navLinks: [
     { label: 'Home', href: '/' },
     { label: 'Contact', href: '/contact' },
-    { label: 'Schedule', href: '/schedule', },
-    { label: 'Results', href: '/results', },
+    { label: 'Schedule & Results', href: '/schedule', },
     { label: 'Instagram', icon: 'mdi:instagram', href: 'https://instagram.com/bhsredhawks_xctf', external: true}
   ] satisfies SiteNavLink[]
 } as const

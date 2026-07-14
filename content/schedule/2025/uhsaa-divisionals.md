@@ -1,5 +1,6 @@
 ---
 title: UHSAA Divisionals
+season: Cross Country
 date: 2025-10-14
 location: Lakeside Park
 reuslts: https://www.athletic.net/CrossCountry/meet/263009

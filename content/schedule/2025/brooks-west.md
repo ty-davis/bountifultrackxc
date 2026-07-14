@@ -1,5 +1,6 @@
 ---
 title: Brooks West
+season: Cross Country
 results: https://finishedresults.trackscoreboard.com/meets/13798/events
 date: 2025-12-06
 ---

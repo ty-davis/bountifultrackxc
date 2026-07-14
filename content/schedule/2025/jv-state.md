@@ -1,5 +1,6 @@
 ---
 title: JV State
+season: Cross Country
 date: 2025-11-05
 ---
 
