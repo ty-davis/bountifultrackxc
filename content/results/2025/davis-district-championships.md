@@ -1,5 +1,6 @@
 ---
-title: Districts
+title: Davis District Championships
+date: 2025-09-17
 ---
 
 #### Boys
