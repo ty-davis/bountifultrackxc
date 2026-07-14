@@ -7,7 +7,7 @@ date: 2026-08-08
 description: The actual page content is here
 googleMapsLink: https://maps.app.goo.gl/4VG4BttB5gVfR1CaA
 location: Cottonwood Complex
-results: https://ty-davis.com
+results: ""
 season: Cross Country
 seo:
   title: Premier Invitational
