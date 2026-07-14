@@ -24,20 +24,21 @@ const { data: pages } = await useAsyncData(
         <tr>
           <th>Title</th>
           <th>Date</th>
-          <th>Info</th>
+          <th>Results</th>
         </tr>
       </thead>
       <tbody>
         <template v-for="page in pages" :key="page.path">
           <tr>
             <td>
-              {{ page.title }}
+              <a :href="page.path"> {{ page.title }} </a>
             </td>
             <td>
-              {{ page.date }}
+              {{ formatDate(page.date, 'short') }}
             </td>
             <td>
-              <a :href="page.path">Info</a>
+              <a v-if="page.results" :href="page.results">Results</a>
+              <span v-else>Coming soon</span>
             </td>
           </tr>
         </template>

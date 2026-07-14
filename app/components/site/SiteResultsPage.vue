@@ -19,7 +19,7 @@ const { data: page } = await useAsyncData(
       <template v-if="page.location">
         {{ page.location }} | 
       </template>
-      {{ page.date }}
+      {{ formatDate(page.date) }}
     </h3>
     <a :href="page.results" target="_blank">Results</a>
   </div>

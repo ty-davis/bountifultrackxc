@@ -3,8 +3,8 @@
 Jump to [All Time Performances](#all-time-performances)
 
 <ResultsIndex
-    title="2026 Results"
-    path="results/2026">
+    title="Results"
+    path="results">
 </ResultsIndex>
 
 ## All time performances

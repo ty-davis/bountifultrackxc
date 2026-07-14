@@ -16,7 +16,7 @@ export const siteConfig = {
   headerImage: '/assets/bountifulpano.jpg',
   navLinks: [
     { label: 'Home', href: '/' },
-    { label: 'About', href: '/about' },
+    { label: 'Contact', href: '/contact' },
     { label: 'Schedule', href: '/schedule', },
     { label: 'Results', href: '/results', },
     { label: 'Instagram', icon: 'mdi:instagram', href: 'https://instagram.com/bhsredhawks_xctf', external: true}
