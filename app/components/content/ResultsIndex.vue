@@ -31,13 +31,13 @@ const { data: pages } = await useAsyncData(
         <template v-for="page in pages" :key="page.path">
           <tr>
             <td>
-              <a :href="page.path"> {{ page.title }} </a>
+              <NuxtLink :href="page.path"> {{ page.title }} </NuxtLink>
             </td>
             <td>
               {{ formatDate(page.date, 'short') }}
             </td>
             <td>
-              <a v-if="page.results" :href="page.results">Results</a>
+              <NuxtLink v-if="page.results" :href="page.results" target="_blank">Results</NuxtLink>
               <span v-else>Coming soon</span>
             </td>
           </tr>

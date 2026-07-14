@@ -1,9 +1,10 @@
 ---
-title: Premier Invite
-description: Boys
+title: Premier Invitational
 date: 2025-08-07
+description: Boys
+results: https://www.athletic.net/CrossCountry/meet/256855/info
 seo:
-  description: Premier Invite 2025 Results
+  description: Premier Invitational 2025 Results
   title: Premier Invitational
 ---
 
