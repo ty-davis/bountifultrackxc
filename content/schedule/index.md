@@ -7,8 +7,8 @@ description: Jump to All Time Performances
 
 Jump to [All Time Performances](#all-time-performances) | [Google Sheets Training Calendar](/schedule/training)
 
-:schedule-index{path="schedule" title="Results" :showPastYearsAsLinks="true"}
-
+::schedule-index{show-past-years-as-links path="schedule" title="Results"}
+::
 
 # All time performances
 

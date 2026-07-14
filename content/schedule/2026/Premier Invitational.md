@@ -1,10 +1,11 @@
 ---
 title: Premier Invitational
-address: 4460 250 w Ogden, UT
+address: 4400 S 1300 E, Salt Lake City, UT
 busDepart: 6:45 am
 busReturn: 12:00 pm
 date: 2026-08-08
-googleMapsLink: https://maps.google.com
+description: The actual page content is here
+googleMapsLink: https://maps.app.goo.gl/4VG4BttB5gVfR1CaA
 location: Cottonwood Complex
 results: https://ty-davis.com
 season: Cross Country
@@ -13,5 +14,3 @@ seo:
   description: Coming soon
 startTime: 8:15 am
 ---
-
-The actual page content is here
