@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { ref } from 'vue';
 const route = useRoute()
 
 const { data: page } = await useAsyncData(
@@ -20,10 +21,19 @@ useSeoMeta({
   title: () => page.value?.title,
   description: () => page.value?.description
 })
+
+const resultsPage = ref(page.value?.path?.startsWith('/results') && !page.value?.path?.endsWith('/results'))
 </script>
 
 <template>
   <article class="prose prose-zinc max-w-none prose-headings:tracking-tight prose-a:text-[var(--bhs-red)] prose-a:no-underline hover:prose-a:underline">
-    <ContentRenderer :value="page" />
+    <template v-if="resultsPage">
+      <SiteResultsPage />
+      <ContentRenderer :value="page" />
+    </template>
+    <template v-else>
+      <ContentRenderer :value="page" />
+    </template>
   </article>
 </template>
+
