@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { MenuIcon } from '@lucide/vue'
+import { Icon } from '@iconify/vue'
 
 import { cn } from '@/lib/utils'
 import { siteConfig } from '@/lib/site'
@@ -87,8 +88,12 @@ const headerBackgroundStyle = computed(() => ({
                         'block text-lg no-underline transition-colors hover:text-white',
                         isActive(link.href) ? 'font-bold text-white' : 'text-white/80'
                       )"
+                      :target="link.external ? '_blank' : ''"
                     >
-                      {{ link.label }}
+                      <Icon v-if="link.icon" :icon="link.icon" class="size-5"/>
+                      <template v-else>
+                        {{ link.label }}
+                      </template>
                     </NuxtLink>
                   </SheetClose>
 
@@ -96,7 +101,10 @@ const headerBackgroundStyle = computed(() => ({
                     v-else
                     class="block cursor-default text-lg text-white/55"
                   >
-                    {{ link.label }}
+                    <Icon v-if="link.icon" :icon="link.icon" class="size-5"/>
+                    <template v-else>
+                      {{ link.label }}
+                    </template>
                   </span>
                 </li>
               </ul>
@@ -116,18 +124,25 @@ const headerBackgroundStyle = computed(() => ({
                 v-if="!link.disabled"
                 :to="link.href"
                 :class="cn(
-                  'text-base font-semibold text-[var(--bhs-red)] no-underline hover:underline hover:underline-offset-4',
+                  'text-base font-semibold text-[var(--bhs-charcoal)] no-underline hover:underline hover:underline-offset-4',
                   isActive(link.href) && 'underline underline-offset-4'
                 )"
+                :target="link.external ? '_blank' : ''"
               >
-                {{ link.label }}
+                <Icon v-if="link.icon" :icon="link.icon" class="size-5"/>
+                <template v-else>
+                  {{ link.label }}
+                </template>
               </NuxtLink>
 
               <span
                 v-else
                 class="cursor-default text-base font-semibold text-[var(--bhs-red)] opacity-70"
               >
-                {{ link.label }}
+                <Icon v-if="link.icon" :icon="link.icon" class="size-5"/>
+                <template v-else>
+                  {{ link.label }}
+                </template>
               </span>
             </li>
           </ul>

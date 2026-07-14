@@ -1,8 +1,10 @@
 export interface SiteNavLink {
   label: string
   href: string
+  icon?: string
   disabled?: boolean
   mobileOnly?: boolean
+  external?: boolean
 }
 
 export const siteConfig = {
@@ -16,6 +18,7 @@ export const siteConfig = {
     { label: 'Home', href: '/' },
     { label: 'About', href: '/about' },
     { label: 'Schedule', href: '/schedule', },
-    { label: 'Anything', href: '/anything', disabled: true, mobileOnly: true }
+    { label: 'Results', href: '/results', },
+    { label: 'Instagram', icon: 'mdi:instagram', href: 'https://instagram.com/bhsredhawks_xctf', external: true}
   ] satisfies SiteNavLink[]
 } as const
