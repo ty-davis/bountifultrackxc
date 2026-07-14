@@ -12,5 +12,13 @@ export default defineNuxtConfig({
   shadcn: {
     prefix: '',
     componentDir: './app/components/ui'
+  },
+  studio: {
+    repository: {
+      provider: 'github',
+      owner: 'ty-davis',
+      repo: 'bountifultrackxc',
+      branch: 'master'
+    }
   }
 })
