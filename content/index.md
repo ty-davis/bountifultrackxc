@@ -1,6 +1,5 @@
 ---
-title: My first page
-description: Here is the content of that page
+title: Bountiful Track & Field | Cross Country
 ---
 
 # Bountiful Track & Field | Cross Country
