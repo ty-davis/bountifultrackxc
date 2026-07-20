@@ -3,7 +3,7 @@ const props = defineProps<{
   path: string
   title?: string
   year?: number | string
-  showAsTable: boolean
+  showAsTable?: boolean
   showPastYearsAsLinks: boolean
 }>()
 

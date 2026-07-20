@@ -3,8 +3,6 @@ title: My first page
 description: Here is the content of that page
 ---
 
-# My first page
+# Bountiful Track & Field | Cross Country
 
-Here is the content of that page
-
-Is this working?
+[Summer 2026 Training Calendar](/schedule/training)

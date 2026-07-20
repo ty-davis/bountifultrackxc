@@ -5,7 +5,7 @@ withDefaults(defineProps<{
   path?: string,
   date: string,
   startTime?: string,
-  results: string,
+  results?: string,
   location?: string,
   address?: string,
   googleMapsLink?: string,
