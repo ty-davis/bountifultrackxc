@@ -7,4 +7,4 @@ description: Here is the content of that page
 
 [Summer 2026 Training Calendar](/schedule/training)
 
-First race on August 8!
+First race on August 8, the Premier Invitational!
