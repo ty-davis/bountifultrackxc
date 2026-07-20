@@ -1,0 +1,29 @@
+name: Deploy admin server
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, tysrv]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync source to live directory
+        run: |
+          rsync -a --delete \
+            --exclude ".git" \
+            --exclude ".github" \
+            "$GITHUB_WORKSPACE"/ /var/www/bountifultrackxc/
+
+      - name: Build app
+        working-directory: /var/www/bountifultrackxc
+        run: |
+          npm ci
+          npm run build
+
+      - name: Restart app
+        run: sudo systemctl restart bountifultrackxc
