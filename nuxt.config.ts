@@ -14,11 +14,18 @@ export default defineNuxtConfig({
     componentDir: './app/components/ui'
   },
   studio: {
+    route: '/_studio',
     repository: {
       provider: 'github',
       owner: 'ty-davis',
       repo: 'bountifultrackxc',
       branch: 'master'
+    }
+  },
+  nitro: {
+    prerender: {
+      routes: ['/'],
+      crawlLinks: true
     }
   }
 })
