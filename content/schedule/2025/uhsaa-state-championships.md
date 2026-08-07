@@ -1,8 +1,8 @@
 ---
 title: UHSAA State Championships
-season: Cross Country
 date: 2025-10-28
-results: https://www.athletic.net/CrossCountry/meet/263009/info
+results: https://sporttrax.com/meets/882/results/by-event/33476
+season: Cross Country
 ---
 
 #### Boys
