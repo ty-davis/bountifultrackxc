@@ -6,7 +6,7 @@ busReturn: 12:00 pm
 date: 2026-08-08
 googleMapsLink: https://maps.app.goo.gl/4VG4BttB5gVfR1CaA
 location: Cottonwood Complex
-results: ""
+results: https://sites.chronotrack.com/event/93695/results
 season: Cross Country
 startTime: 8:15 am
 ---
