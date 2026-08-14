@@ -1,6 +1,6 @@
 ---
 title: Divisionals State Qualifier
-date: 2026-10-13
+date: 2026-10-14
 googleMapsLink: https://maps.app.goo.gl/Hg9GU3fef6D76uF76
 location: Lakeside Park, Orem, UT
 season: Cross Country
